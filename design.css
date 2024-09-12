@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_body {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.shoe_image {
+  width: 80%
+}
+
+.cost span {
+  font-size: 80px;
+}
+
+.first_h1 {
+  position: absolute;
+  font-size: 100px;
+  z-index: 0;
+  top: 100px;
+  right: 450px;
+  color: #e9e9e9;
+}
+
+.second_h1 {
+  position: absolute;
+  font-size: 100px;
+  z-index: 2;
+  top: 220px;
+  right: 350px;
+  color: #e9e9e9;
+}
+
+.second_h1 span {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.vertical_line {
+  border-left: 6px solid #777777;
+}
+
+.div_end {
+  transform: rotate(270deg);
+}
+
+.shoe {
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+
+.shoe:hover {
+  transform: scale(1.2);
+}
+
+.discover {
+  font-family: Bruno_Ace_Pro;
+}
+
+@font-face {
+  font-family: 'Bruno_Ace_Pro';
+  src: url(FontsFree-Net-bruno-ace-pro.ttf);
+}
